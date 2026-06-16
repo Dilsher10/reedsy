@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="83px" viewBox="0 0 69 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mini-icon-how-it-worls@2x</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="How-it-works" transform="translate(-586, -40)">
+            <g id="mini-icon-how-it-worls" transform="translate(586, 40)">
+                <circle id="Oval" fill="#D8E4EA" cx="34.9122392" cy="34" r="34"></circle>
+                <g id="Group-6" transform="translate(32.8369, 42.8513) rotate(10) translate(-32.8369, -42.8513)translate(5.8369, 6.8758)">
+                    <path d="M10.5349847,38.8615951 C11.6735881,38.8615951 12.5966085,39.7846155 12.5966085,40.9232189 L12.5966085,71.1603673 C12.5966085,72.2989707 11.6735881,73.2219911 10.5349847,73.2219911 C9.39638133,73.2219911 8.47336094,72.2989707 8.47336094,71.1603673 L8.47336094,40.9232189 C8.47336094,39.7846155 9.39638133,38.8615951 10.5349847,38.8615951 Z" id="Neck" fill="#819EB2" transform="translate(10.535, 56.0418) rotate(-330) translate(-10.535, -56.0418)"></path>
+                    <path d="M7.89633124,45.4114349 L10.7684104,45.4114349 C11.8729799,45.4114349 12.7684104,46.3068654 12.7684104,47.4114349 L12.7684104,68.8381279 C12.7684104,69.9426974 11.8729799,70.8381279 10.7684104,70.8381279 L7.89633124,70.8381279 C6.79176174,70.8381279 5.89633124,69.9426974 5.89633124,68.8381279 L5.89633124,47.4114349 C5.89633124,46.3068654 6.79176174,45.4114349 7.89633124,45.4114349 Z" id="Rectangle" fill="#19242C" transform="translate(9.3324, 58.1248) rotate(-330) translate(-9.3324, -58.1248)"></path>
+                    <circle id="Frame" stroke="#617C8F" stroke-width="5" fill="url(#linearGradient-1)" transform="translate(27.7152, 26.2848) rotate(-330) translate(-27.7152, -26.2848)" cx="27.7151827" cy="26.2848173" r="16.7418217"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="32.4429187" cy="21.4175053" r="5.5"></circle>
+                    <path d="M14.8300342,43.7920937 C16.1584048,43.7920937 17.2352619,44.8689509 17.2352619,46.1973214 L17.2352619,51.0077769 C17.2352619,52.3361475 16.1584048,53.4130046 14.8300342,53.4130046 C13.5016636,53.4130046 12.4248065,52.3361475 12.4248065,51.0077769 L12.4248065,46.1973214 C12.4248065,44.8689509 13.5016636,43.7920937 14.8300342,43.7920937 Z" id="Rectangle" fill="#19242C" transform="translate(14.83, 48.6025) rotate(-600) translate(-14.83, -48.6025)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
