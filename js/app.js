@@ -21,6 +21,16 @@
     callback();
   }
 
+  function keepInitialPagePosition() {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+
+    if (!window.location.hash) {
+      window.scrollTo(0, 0);
+    }
+  }
+
   function setHidden(element, hidden) {
     if (!element) return;
     element.classList.toggle('hidden', hidden);
@@ -64,11 +74,11 @@
 
   function normalizeLinks() {
     document.querySelectorAll('a[href^="/"]').forEach(function (link) {
-      link.href = 'https://reedsy.com' + link.getAttribute('href');
+      link.href = '' + link.getAttribute('href');
     });
 
     document.querySelectorAll('form[action^="/"]').forEach(function (form) {
-      form.dataset.remoteAction = 'https://reedsy.com' + form.getAttribute('action');
+      form.dataset.remoteAction = '' + form.getAttribute('action');
     });
   }
 
@@ -232,7 +242,7 @@
         setHidden(realSubmit, !show);
         if (emailRow && show) {
           var input = emailRow.querySelector('input[type="email"]');
-          if (input) input.focus();
+          if (input) input.focus({ preventScroll: true });
         }
       }
 
@@ -505,6 +515,7 @@
   }
 
   ready(function () {
+    keepInitialPagePosition();
     normalizeLinks();
     loadLazyMedia();
     initModals();
