@@ -302,7 +302,7 @@
                     </div>
                 </div>
                 <div class="nav-cta">
-                    <a class="btn btn-accent btn-border btn-sm" href="/accounts/sign_in">Log in</a>
+                    <a class="btn btn-accent btn-border btn-sm" href="">Log in</a>
                     <button name="button" type="button" class="btn btn-accent btn-sm"
                         onclick="window.showSignupModal && window.showSignupModal();"
                         data-modal-trigger="signup-modal">Sign up</button>
@@ -2575,7 +2575,7 @@
                     </svg>
                 </div>
                 <img class="lazyload modal-image"
-                    data-src="https://assets-cdn.reedsy.com/assets/v2/service/marketplace-ui-fcf6feee15019aa6705328834eae5d4d86b0c31d5ad40d1d7732ffc2523f1fb6.jpg"
+                    data-src="./images/marketplace-explainer-placeholder.jpg"
                     width="495" height="270" src="" />
                 <div class="modal-body">
                     <h3>
@@ -2590,8 +2590,6 @@
                             type="hidden" name="authenticity_token"
                             value=""
                             autocomplete="off" />
-                        <input type="hidden" name="g-recaptcha-response-v3" id="28fdf4d5-93d4-40c6-945c-1b9ea473fb7c"
-                            value="" class="g-recaptcha-response" autocomplete="off" />
                         <div class="urf-social" data-swap-item>
                             <a title="Sign in with Google" class="btn btn-google btn-sm-xs btn-full"
                                 href="">
@@ -2633,7 +2631,7 @@
         data-page-uid="marketplace#pages#index" data-title="Reedsy | Default — Editors with Marker | 2024-05"
         data-served="A" data-header="Bring your publishing dreams to life"
         data-description="The world&#39;s best editors, designers, and marketers are on Reedsy. Come meet them."
-        data-featured-image="https://blog-cdn.reedsy.com/directories/admin/modal/564/large_70973d04ec2ca93e319dbcb446862bc3.webp"
+        data-featured-image="./images/large.webp"
         data-test-start-date="&quot;2025-09-24T00:00:00.000Z&quot;" data-env="production" data-frequency="3"
         data-period="weeks">
         <div class="reedsy-modal--content image_modal">
@@ -2647,17 +2645,15 @@
                         </g>
                     </svg>
                 </div>
-
                 <picture>
                     <source media="(min-width: 600px)"
-                        data-srcset="https://blog-cdn.reedsy.com/directories/admin/modal/564/large_70973d04ec2ca93e319dbcb446862bc3.webp">
+                        data-srcset="./images/large.webp">
                     <source
-                        data-srcset="https://blog-cdn.reedsy.com/directories/admin/modal/564/medium_70973d04ec2ca93e319dbcb446862bc3.webp">
-                    <img data-src="https://blog-cdn.reedsy.com/directories/admin/modal/564/large_70973d04ec2ca93e319dbcb446862bc3.webp"
+                        data-srcset="./images/medium.webp">
+                    <img data-src="./images/large.webp"
                         class="reedsy-modal--image reedsy-modal--lazy"
                         alt="Reedsy | Default — Editors with Marker | 2024-05" width="495" height="270">
                 </picture>
-
                 <div class="reedsy-modal--body">
                     <p class="reedsy-modal--heading">
                         Bring your publishing dreams to life
@@ -2665,28 +2661,17 @@
                     <p>
                         The world&#39;s best editors, designers, and marketers are on Reedsy. Come meet them.
                     </p>
-
-                    <form class="reedsy-modal--form captcha-signup" action="https://reedsy.com/blog/registrations"
-                        accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token"
-                            value="oli45K7BLI3dOrVVZjUWMY8tTOkvlaSAMBg8ZAPjOy9rBd1QKktf5oZGHwrgaHrYwVfitaCDkMEd00oJrNDTog"
-                            autocomplete="off" />
-                        <input type="hidden" name="g-recaptcha-response-v3" id="2a5eb9c9-9ade-42d3-9b24-7dacc75521eb"
-                            value="" class="g-recaptcha-response" autocomplete="off" />
-                        <input type="hidden" name="original_url" id="original_url" value="https://reedsy.com/"
-                            autocomplete="off" />
-
-
+                    <form class="reedsy-modal--form captcha-signup" action="" accept-charset="UTF-8" method="post">
+                        <input type="hidden" name="authenticity_token" value="" autocomplete="off" />
                         <input type="email" name="user[email]" id="user_email" value="" class="reedsy-modal--input"
                             placeholder="Enter your email..." required="required" />
-
                         <input type="submit" name="commit" value="Get started"
                             class="reedsy-modal--submit reedsy-modal--submit-validate reedsy-modal--btn"
                             style="--theme-color: #9FD50B;" data-disable-with="Get started" />
-
                         <div class="reedsy-modal--social-buttons">
                             <a title="Sign in with Google" class="reedsy-modal--btn reedsy-modal--btn-google"
                                 data-social-modal-trigger="true"
-                                href="https://reedsy.com/auth/social_sign_in/google?marketplace_blog=true">
+                                href="">
                                 Google
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 26 26"
                                     preserveAspectRatio="xMinYMin meet">
@@ -2716,7 +2701,6 @@
 
                 </div>
             </div>
-
         </div>
         <div class="reedsy-modal--overlay"></div>
     </div>
